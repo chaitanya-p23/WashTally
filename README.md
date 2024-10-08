@@ -17,12 +17,16 @@ You can access the app online at **[laundry-chaitanya.netlify.app](https://laund
 ## Screenshots
 
 ### Desktop view
-![Desktop View 1](assets/desktop/main-page-dark-mode.png)
-![Desktop View 2](assets/desktop/main-page-light-mode.png)
+<div>
+    <img src="assets/desktop/main-page-dark-mode.png" width="80%">
+    <img src="assets/desktop/main-page-light-mode.png" width="80%">
+</div>
 
 ### Mobile view
-<img src="assets/mobile/main-page-dark-mode.png" width="49%">
-<img src="assets/mobile/main-page-light-mode.png" width="49%">
+<div>
+    <img src="assets/mobile/main-page-dark-mode.png" width="40%">
+    <img src="assets/mobile/main-page-light-mode.png" width="40%">
+</div>
 
 ## Installation
 
