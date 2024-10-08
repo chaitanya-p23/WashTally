@@ -1,0 +1,195 @@
+@media (prefers-color-scheme: light) {
+    .laundry-tracker-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    
+    .laundry-tracker-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .laundry-details-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .laundry-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .laundry-item-label {
+      font-size: 16px;
+    }
+    
+    .laundry-item-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .laundry-item-button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .laundry-item-value {
+      font-size: 16px;
+    }
+    
+    .laundry-total-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 24px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .laundry-total-label {
+      margin-right: 10px;
+    }
+    
+    .laundry-total-value {
+      font-weight: bold;
+    }
+    
+    .laundry-reset-button {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+    }
+    
+    .laundry-tracker-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #333;
+    }
+    
+    .laundry-tracker-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    
+    .laundry-details-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      max-width: 400px;
+      background-color: #333;
+    }
+    
+    .laundry-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #444;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .laundry-item-label {
+      font-size: 16px;
+      color: #fff;
+    }
+    
+    .laundry-item-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .laundry-item-button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .laundry-item-value {
+      font-size: 16px;
+      color: #fff;
+    }
+    
+    .laundry-total-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 24px;
+      background-color: #444;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .laundry-total-label {
+      margin-right: 10px;
+      color: #fff
+    }
+    
+    .laundry-total-value {
+      font-weight: bold;
+      color: #fff;
+    }
+    
+    .laundry-reset-button {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }
+  
