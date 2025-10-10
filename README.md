@@ -33,7 +33,7 @@ You can access the app online at **[laundry-chaitanya.netlify.app](https://laund
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/chaitanya-p23/WashTally.git
+    git clone https://github.com/XeCipher/WashTally.git
     ```
 
 2. Navigate into the project directory:
